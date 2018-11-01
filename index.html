@@ -3,6 +3,14 @@
 	<head>
 		<meta charset "UTF-8">
 		<title> Veloshop </title>
+		<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="style.css">
 	
 		
@@ -21,9 +29,9 @@
 		</ul>
 </header>
 
-		
+<section>		
 		<input type="search" autocomplete="On" placeholder="Знайти мрію">
-		<button type="submit">Пошук</button>
+		<button type="submit" class="btn btn-warning" style='background-color: blue'>Пошук</button>
 
 	<div id="order">			 
 	<table align="center" border="3" bordercolor="white">
@@ -130,8 +138,37 @@
 		<br>
 		<details>Цікавий магазинчик?</details>
 	</form>
-
-
+<table class="table table-hover table-bordered table-striped">
+			<thead>
+				<tr>
+					<th>Вид велосипеда</th>
+					<th>діаметр колеса</th>
+					<th>ціна</th>
+					<th>примітки</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Gaint</td>
+					<td>29"</td>
+					<td>7600 ua</td>
+					<td>приімітки</td>
+				</tr>
+				<tr>
+					<td>Spelli</td>
+					<td>29"</td>
+					<td>234$</td>
+					<td>приімітки</td>
+				</tr>
+				<tr>
+					<td>Cube</td>
+					<td>27"</td>
+					<td>600$</td>
+					<td>приімітки</td>
+				</tr>
+			</tbody>
+		</table>
+</section>
 		<footer align="center">
 		<a href="" >Контакти</a>
 		<a href="">Оплата та доставка</a>
