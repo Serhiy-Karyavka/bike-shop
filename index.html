@@ -1,8 +1,9 @@
 ﻿<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset "UTF-8">
-		<title> Veloshop </title>
+<html lang="en">
+<head>
+<meta charset "UTF-8">
+<title> Veloshop </title>
+
 		<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -10,58 +11,95 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="style.css">
-	
-		
+
+		<link rel="stylesheet" 
+		href="style.css">
 	</head>
 	<body >
-<header>
-		<img src="images/лого.png" class="img-logo" alt="велошоп">
-		<ul id="navbar">
-		<li><a href="#">Головна</a></li>
-		<li><a href="#">Контакти</a></li>
-		<li><a href="#">Оплата та доставка</a></li>
-		<li><a href="#">Про компанію</a></li>
-		<li><a href="#">Співпраця</a></li>
-		<li><a href="#">Допомога</a></li>
-		<li><a href="#">Корзина</a></li>
+<nav class="navbar navbar-default">
+		<div class="navbar-header">
+			<a href="#" class="navbar-brand" style="padding:0;">
+				<img src="images/logo.png" alt="Logo" style='height: 100%;'>
+			</a>
+		</div>
+		<ul class='navbar-nav nav'>
+			<li class='active'><a href="#">Головна</a></li>
+			<li><a href="#">Про компанію</a></li>
+			<li><a href="2vkl.html">Детально тут</a></li>
+			<li><a href="slider.html">Мій слайдерс)</a></li>
 		</ul>
-</header>
+		<form action="post" class="navbar-form navbar-right">
 
-<section>		
-		<input type="search" autocomplete="On" placeholder="Знайти мрію">
-		<button type="submit" class="btn btn-warning" style='background-color: blue'>Пошук</button>
+			<div class='form-group'>
+				<div class='input-group'>
+					<input type="text" placeholder='Find->' class='form-control'>
+					<div class="input-group-btn">
+						<button class='btn btn-primary '>
+							<i class="glyphicon glyphicon-search"></i>
 
-	<div id="order">			 
-	<table align="center" border="3" bordercolor="white">
+						</button>
+					</div>
+				</div>
 				
+			</div>
+			
+		</form>
+	</nav>
+
+			<section>
+			<div class="row">
+			<article class='col-md-4 col-sm-6 col-lg-10' style='display:flex;flex-direction: column'>
+			<div class='img_article'>
+				<img  src="images/v1.png" width="100" height="100" 
+				alt="велик">
+			</div>
+			<div style='flex:1;'>
+				Кожен у дитинстві мріяв мати велосипед, та й чимало людей вже в дорослому віці надають перевагу саме їм, а не автомобілям.
+				Не забруднювати повітря і крутити педалі - це і серед зірок популярно. Але ці транспортні засоби, про які ми розповімо важко назвати просто велосипедами - 5 найдорожчих двококолісних шедеврів.
+				</div>
+			</article>
+
+			<article class='col-md-4 col-sm-6 col-lg-2'>
+				<div>Montante Luxury Gold
+				Прекрасний подарунок свої коханій - звичайно, якщо вона погодиться їздити на коштовностях, а не носити їх на собі. Італійський виробник Монтанте випустив спеціальний дамський велосипед вартістю у 46 тисяч доларів. Двоколісне диво класу люкс вкрите золотом у 24-карати, сидіння та руль обшиті шкірою пітона. Окрім цього на різноманітних деталях приклеєні 11 тисяч камінців Swarovski.
+				</div>
+			</article>
+
+			<article class='col-md-4 col-sm-6 col-lg-10'>
+				<div>Trek Madone 7-Diamond
+				У 2005 році британська фірма Трек випустила ексклюзивний варіант велосипеда Madone 5.9 - під назвою “Сім Діамантів”. Шедевр створили на честь сьомої перемоги легендарного Ленса Армстронга на "Тур де Франс". Велосипед вкритий сотнею білих діамантів і ще сім штучних однокаратних у формі цифри "7". Позолочений витвір мистецтва від ювеліра Алана Фрідмана і художника Ленні Футура пішов із аукціону за 75 тисяч доларів. А більшість грошей подарували фонду Армстронга, який бореться із раком.
+				</div>
+			</article>
+		</div>
+
+	
+		<table class="table table-hover table-bordered table-striped">
+			<thead>
+				<tr>
+					<th>1 категорія</th>
+					<th>2 категорія</th>
+					<th>3 категорія</th>
+					<th>4 категорія</th>
+				</tr>
+			<tbody>
+			</thead>
 					<tr>
-					<td><img src="images/1.JPG"  width="130"></td>
-				
-					<td><img src="images/2.JPG"  width="130"></td>
-				
+					<td><img src="images/1.JPG"  width="130"></td>		
+					<td><img src="images/2.JPG"  width="130"></td>				
 					<td><img src="images/3.JPG" width="130"></td>
-					
 					<td><img src="images/4.JPG"  width="130"></td>
 					</tr>
 					<tr>
-
 					<td><img src="images/5.PNG"  width="130"></td>
-					
 					<td><img src="images/6.JPG"  width="130">
-					
 					<td><img src="images/7.JPG"  width="130"></td>
-					
 					<td><img src="images/8.JPG"  width="130"></td>
 					</tr>
-
-					<tr>
-					<td><img src="images/5.PNG"  width="130"></td>
-					</tr>
-					
+					</tbody>
 					</table>
-	</div>
+	
 	<div>				
 		<hr><p><b>Велосипе́д</b> — це транспортний засіб, який приводить в рух сила людських м'язів, що передається на ведуче колесо. Зазвичай велосипеди мають два колеса; бувають також триколісні велосипеди та інші, екзотичніші — одноколісні, чотириколісні тощо.<br>
 
@@ -70,43 +108,7 @@
 		 <hr>
 	</div>
 
-	<aside>
-		<p><b>Фільтр</b></p>
-		<p>Діаметр колеса</p>
-		<li><input type="checkbox"></li>
-		<li><input type="checkbox"></li>
-		<li><input type="checkbox"></li>
-		<p>Довжина рами</p>
-		<li><input type="checkbox"></li>
-		<li><input type="checkbox"></li>
-		<li><input type="checkbox"></li>
-		<p>Колір</p>
-		<li><input type="checkbox"></li>
-		<li><input type="checkbox"></li>
-		<li><input type="checkbox"></li>
-		<p>Бренд</p>
-		<li><input type="checkbox"></li>
-		<li><input type="checkbox"></li>
-		<li><input type="checkbox"></li>
-		<p>Ціна</p>
-		<li><input type="checkbox"></li>
-		<li><input type="checkbox"></li>
-		<li><input type="checkbox"></li>
-	</aside>
-<div class="conteiner-1">
-	<div class="box-1">
-		<h3>Хто ми</h3>
-		<p>Ми тренуємось робити свої сайти на курсі WoW T</p>
-	</div>
-	<div class="box-2">
-		<h3>як до нас звонить</h3>	
-		<p>звоніть і ми вам відповімо 096 79 74 958</p>
-	</div>
-	<div class="box-3">
-		<h3>як нам написать</h3>	
-		<p>електронна адреса наша таємна</p>
-	</div>
-</div>
+	
 	<div>	
 		<hr>
 		<p><h3><u> 5 фактів - "Чому потрібно купити велосипед?" </u></h3></p>
@@ -170,11 +172,11 @@
 		</table>
 </section>
 		<footer align="center">
-		<a href="" >Контакти</a>
-		<a href="">Оплата та доставка</a>
-		<a href="">Про компанію</a>
-		<a href="">Співпраця</a>
-		<a href="">Велосипеди</a>
+		<a href="index.html" >Головна</a>
+		<a href="">про компанію</a>
+		<a href="2vkl.html">Детально тут</a>
+		<a href="">може шось буде</a>
+		<a href="">галерея велозображень</a>
 		
 		</footer>
 		
